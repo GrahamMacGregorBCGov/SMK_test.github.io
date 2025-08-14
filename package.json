@@ -1,0 +1,13 @@
+{
+    "name": "Graham Test",
+    "version": "0.0.1",
+    "description": "Just trying it out",
+    "author": "Graham MacGregor",
+    "dependencies": {
+        "@bcgov/smk": "1.2.4",
+        "http-server": "^0.12.3"
+    },
+    "scripts": {
+        "view": "http-server -o -c-1"
+    }
+}
