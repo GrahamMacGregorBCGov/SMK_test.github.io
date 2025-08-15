@@ -628,68 +628,165 @@
             "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
             "layerName": "pub:WHSE_LEGAL_ADMIN_BOUNDARIES.FNT_TREATY_AREA_SP",
             "styleName": "3453"
+        },
+        {
+            "type": "vector",
+            "id": "wildfire",
+            "title": "Wildfire",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "fire-number",
+                    "name": "FIRE_NUMBER",
+                    "title": "FIRE_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "version-number",
+                    "name": "VERSION_NUMBER",
+                    "title": "VERSION_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "fire-year",
+                    "name": "FIRE_YEAR",
+                    "title": "FIRE_YEAR",
+                    "visible": true
+                },
+                {
+                    "id": "fire-size-hectares",
+                    "name": "FIRE_SIZE_HECTARES",
+                    "title": "FIRE_SIZE_HECTARES",
+                    "visible": true
+                },
+                {
+                    "id": "source",
+                    "name": "SOURCE",
+                    "title": "SOURCE",
+                    "visible": true
+                },
+                {
+                    "id": "track-date",
+                    "name": "TRACK_DATE",
+                    "title": "TRACK_DATE",
+                    "visible": true
+                },
+                {
+                    "id": "load-date",
+                    "name": "LOAD_DATE",
+                    "title": "LOAD_DATE",
+                    "visible": true
+                },
+                {
+                    "id": "fire-status",
+                    "name": "FIRE_STATUS",
+                    "title": "FIRE_STATUS",
+                    "visible": true
+                },
+                {
+                    "id": "fire-url",
+                    "name": "FIRE_URL",
+                    "title": "FIRE_URL",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE_CODE",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "https://openmaps.gov.bc.ca/geo/pub/WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_POLYS_SP/ows?service=wfs&version=1.1.0&request=getfeature&typename=pub:WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_POLYS_SP&CQL_FILTER=FIRE_STATUS=%27Fire%20of%20Note%27&FIRE_YEAR=2025&outputFormat=json&srsName=EPSG:4326",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#3388ff",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": false,
+                "fillColor": "#3388ff",
+                "fillOpacity": 0.2
+            }
         }
     ],
     "tools": [
         {
             "type": "toolbar",
-            "enabled": true
+            "enabled": false
         },
         {
             "type": "pan",
             "enabled": false
         },
         {
+            "type": "coordinate",
+            "enabled": true
+        },
+        {
+            "type": "markup",
+            "enabled": false
+        },
+        {
+            "type": "minimap",
+            "enabled": false
+        },
+        {
+            "showHeader": false,
+            "type": "location",
+            "enabled": false
+        },
+        {
+            "type": "legend",
+            "enabled": true
+        },
+        {
+            "type": "shortcut-menu",
+            "enabled": false
+        },
+        {
+            "mouseWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "control": true,
             "type": "zoom",
             "enabled": true
         },
         {
-            "order": 1,
-            "position": "list-menu",
-            "icon": "help",
-            "title": "About A new world",
-            "content": "<p>Welcome to SMK!</p><p>Just trying it out</p>",
-            "type": "about",
-            "enabled": false
-        },
-        {
-            "type": "search",
-            "enabled": true
-        },
-        {
-            "type": "coordinate",
-            "enabled": false
-        },
-        {
-            "type": "markup",
-            "enabled": true
-        },
-        {
-            "type": "minimap",
-            "enabled": true
-        },
-        {
-            "type": "directions",
-            "enabled": true
-        },
-        {
-            "type": "location",
-            "enabled": true
-        },
-        {
-            "type": "select",
-            "enabled": true
-        },
-        {
-            "type": "geomark",
-            "geomarkService": {
-                "url": "https://apps.gov.bc.ca/pub/geomark"
-            },
-            "position": "list-menu",
-            "enabled": true
-        },
-        {
-            "order": 3,
+            "order": "1",
             "position": [
                 "shortcut-menu",
                 "list-menu"
@@ -706,24 +803,75 @@
                 "hidden": "visibility_off"
             },
             "type": "layers",
+            "enabled": true,
+            "showTitle": true,
             "display": [
                 {
-                    "id": 667
+                    "id": 667,
+                    "alwaysShowLegend": true
                 },
                 {
-                    "id": 2214
+                    "id": 2214,
+                    "alwaysShowLegend": true
                 },
                 {
-                    "id": 3994
+                    "id": 3994,
+                    "alwaysShowLegend": true
                 },
                 {
                     "id": "pub-whse-admin-boundaries-fadm-tsa--453-454",
                     "alwaysShowLegend": true
                 },
                 {
-                    "id": "pub-whse-legal-admin-boundaries-fnt-treaty-area-sp--3453"
+                    "id": "pub-whse-legal-admin-boundaries-fnt-treaty-area-sp--3453",
+                    "alwaysShowLegend": true
+                },
+                {
+                    "id": "wildfire",
+                    "title": "Wildfire Port Alberni",
+                    "alwaysShowLegend": true
                 }
             ]
+        },
+        {
+            "order": 5,
+            "position": "list-menu",
+            "icon": "info_outline",
+            "title": "Identify Features",
+            "command": {
+                "select": true,
+                "radius": false,
+                "radiusUnit": false,
+                "nearBy": true
+            },
+            "radius": 5,
+            "radiusUnit": "px",
+            "type": "identify",
+            "enabled": true
+        },
+        {
+            "order": 1,
+            "icon": "menu",
+            "position": "toolbar",
+            "type": "list-menu",
+            "enabled": true,
+            "title": "List",
+            "showTitle": true
+        },
+        {
+            "order": 3,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "map",
+            "title": "Base Maps",
+            "mapStyle": {
+                "width": "110px",
+                "height": "110px"
+            },
+            "type": "baseMaps",
+            "enabled": true
         }
     ],
     "version": "1.2.4",
