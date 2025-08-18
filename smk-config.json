@@ -1,0 +1,880 @@
+{
+    "name": "Graham Test",
+    "viewer": {
+        "type": "leaflet",
+        "location": {
+            "center": [
+                -123.68792448127263,
+                51.40143525358349
+            ],
+            "extent": [
+                -127.98699768930967,
+                48.63177778729991,
+                -119.38885127323556,
+                54.012974425669384
+            ],
+            "zoom": 6.77368981908241
+        },
+        "esriApiKey": "",
+        "baseMap": "BCGovHillshade"
+    },
+    "layers": [
+        {
+            "type": "esri-dynamic",
+            "id": 667,
+            "title": "Mapsheet Grid - 20K",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 3000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "FCODE",
+                    "title": "FCODE",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_TILE",
+                    "title": "MAP_TILE",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_TILE_DISPLAY_NAME",
+                    "title": "MAP_TILE_DISPLAY_NAME",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "mpcmId": "667",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":667,\"minScale\":3000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_BASEMAPPING.BCGS_20K_GRID\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,255],\"width\":1}},\"label\":\"Mapsheet Grid - 20K\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[MAP_TILE]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":false,\"haloColor\":[255,255,255,253],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":9,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":750000,\"maxScale\":0}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/a61976ac-d8e8-4862-851e-d105227b6525"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 2214,
+            "title": "Tenures - Tantalis - Outlined",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 2500000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "INTRID_SID",
+                    "title": "Internal Interest Identifier",
+                    "visible": false
+                },
+                {
+                    "name": "TENURE_STAGE",
+                    "title": "Tenure Stage",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_STATUS",
+                    "title": "Tenure Status",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_TYPE",
+                    "title": "Tenure Type",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_SUBTYPE",
+                    "title": "Tenure Subtype",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_PURPOSE",
+                    "title": "Tenure Purpose",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_SUBPURPOSE",
+                    "title": "Tenure Subpurpose",
+                    "visible": true
+                },
+                {
+                    "name": "CROWN_LANDS_FILE",
+                    "title": "Crown Lands File Number",
+                    "visible": true
+                },
+                {
+                    "name": "APPLICATION_TYPE_CDE",
+                    "title": "Application Type Code",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_DOCUMENT",
+                    "title": "Tenure Document Number",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_EXPIRY",
+                    "title": "Tenure Expiry Date",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_LOCATION",
+                    "title": "Tenure Location",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_LEGAL_DESCRIPTION",
+                    "title": "Tenure Legal Description",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_AREA_DERIVATION",
+                    "title": "Tenure Area Derivation",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_AREA_IN_HECTARES",
+                    "title": "Tenure Area (Hectares)",
+                    "visible": true
+                },
+                {
+                    "name": "RESPONSIBLE_BUSINESS_UNIT",
+                    "title": "Responsible Business Unit",
+                    "visible": true
+                },
+                {
+                    "name": "DISPOSITION_TRANSACTION_SID",
+                    "title": "Disposition Transaction SID",
+                    "visible": true
+                },
+                {
+                    "name": "CODE_CHR_STAGE",
+                    "title": "Tenure Stage Code",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "Shape",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "Feature Length M",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "Inernal Object Identifier",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "Shape Area",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "Shape Length",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "2214",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":2214,\"minScale\":2500000,\"maxScale\":0,\"definitionExpression\":\"TENURE_STAGE = 'TENURE'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_TANTALIS.TA_CROWN_TENURES_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,128,128,255],\"width\":0.4}},\"label\":\"Tenures\",\"description\":\"\"},\"transparency\":15,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/3544ad91-0cf2-4926-a08a-bfe42d9a031d"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 3994,
+            "title": "Visual Landscape Inventory - Established Visual Quality Objective",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 300001,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "VLI_POLYGON_NO",
+                    "title": "VLI Polygon Number",
+                    "visible": true
+                },
+                {
+                    "name": "VSU_NUMBER",
+                    "title": "VSU Number",
+                    "visible": true
+                },
+                {
+                    "name": "ORG_UNIT_NO",
+                    "title": "Org Unit No",
+                    "visible": true
+                },
+                {
+                    "name": "VSA_NUMBER",
+                    "title": "VSA Number",
+                    "visible": true
+                },
+                {
+                    "name": "REC_MADE_KNOWN_CODE",
+                    "title": "Made Known",
+                    "visible": true
+                },
+                {
+                    "name": "RATIONALE",
+                    "title": "Rationale",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "REC_BR_FINAL_VALUE_CODE",
+                    "title": "BR Final Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_REHAB_ENHANCEMENT_CODE",
+                    "title": "Rehabilitation Enhancement",
+                    "visible": true
+                },
+                {
+                    "name": "REC_ROCK_SOIL_VEG_VARIETY_CODE",
+                    "title": "Roack Soil Veg Variety",
+                    "visible": true
+                },
+                {
+                    "name": "REC_SLOPE_CODE",
+                    "title": "Slope",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VIEWER_EXPECTATIONS_CODE",
+                    "title": "Viewer Expectations",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VEGETATION_VARIETY_CODE",
+                    "title": "Vegetation Variety",
+                    "visible": true
+                },
+                {
+                    "name": "REC_INFLUENCE_ADJ_SCENERY_CODE",
+                    "title": "Influence Adj Scenery",
+                    "visible": true
+                },
+                {
+                    "name": "REC_NUMBER_VIEWERS_CODE",
+                    "title": "Number Viewers Code",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VIEWING_DISTANCE_CODE",
+                    "title": "Viewing Distance Code",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VISUAL_RECOVERY_CODE",
+                    "title": "Visual Recovery",
+                    "visible": true
+                },
+                {
+                    "name": "REC_EVC_FINAL_VALUE_CODE",
+                    "title": "EVC Final Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VC_FINAL_VALUE_CODE",
+                    "title": "VC Final Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VAC_FINAL_VALUE_CODE",
+                    "title": "VAC Final Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_INFLUENCE_ROCK_SOIL_CODE",
+                    "title": "Influence Rock Soil",
+                    "visible": true
+                },
+                {
+                    "name": "REC_LAKE_CLASS_GOAL_CD",
+                    "title": "Lake Classification Goal",
+                    "visible": true
+                },
+                {
+                    "name": "REC_TOPOGRAPHIC_VARIETY_CODE",
+                    "title": "Topographic Variety",
+                    "visible": true
+                },
+                {
+                    "name": "VLI_POLYGON_ID",
+                    "title": "VLI Polygon ID",
+                    "visible": true
+                },
+                {
+                    "name": "PROJECT_NAME",
+                    "title": "Project Name",
+                    "visible": true
+                },
+                {
+                    "name": "VSU_RATING_POINT",
+                    "title": "VSU Rating Point Number",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_SHEET_ID",
+                    "title": "Map Sheet ID",
+                    "visible": true
+                },
+                {
+                    "name": "REC_INFLUENCE_VIS_LANDSCAPE_CD",
+                    "title": "Infl. Vis Landscape Design",
+                    "visible": true
+                },
+                {
+                    "name": "REC_INFLUENCE_WATER_CODE",
+                    "title": "Influence Water",
+                    "visible": true
+                },
+                {
+                    "name": "REC_INF_VEG_COLOR_TEXT_CD",
+                    "title": "Infl. Veg Color Texture",
+                    "visible": true
+                },
+                {
+                    "name": "REC_ASPECT_CODE",
+                    "title": "Aspect",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VR_FINAL_VALUE_CODE",
+                    "title": "VR Final Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VSC_FINAL_VALUE_CODE",
+                    "title": "VSC Final Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VIEWING_DURATION_CODE",
+                    "title": "Viewing Duration",
+                    "visible": true
+                },
+                {
+                    "name": "REC_SURFACE_VARIATION_CODE",
+                    "title": "Surface Variation",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VSU_VERTICAL_RELIEF_CODE",
+                    "title": "Vertical Relief",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VIEWING_FREQUENCY_CODE",
+                    "title": "Viewing Frequency",
+                    "visible": true
+                },
+                {
+                    "name": "REC_LAKE_CLASSIFICATION_CODE",
+                    "title": "Lake Classification",
+                    "visible": true
+                },
+                {
+                    "name": "REC_EDGE_CODE",
+                    "title": "Edge",
+                    "visible": true
+                },
+                {
+                    "name": "REC_RVQC_CODE",
+                    "title": "RVQC",
+                    "visible": true
+                },
+                {
+                    "name": "REC_EVQO_CODE",
+                    "title": "EVQO",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VIEWING_ANGLE_CODE",
+                    "title": "Viewing Angle",
+                    "visible": true
+                },
+                {
+                    "name": "REC_YEARS_TO_VEG_CODE",
+                    "title": "Years to Veg Code",
+                    "visible": true
+                },
+                {
+                    "name": "REC_INFLUENCE_SITE_DISTURB_CD",
+                    "title": "Infl. Site Disturbance",
+                    "visible": true
+                },
+                {
+                    "name": "UPDATE_DATE",
+                    "title": "Update Date",
+                    "visible": true
+                },
+                {
+                    "name": "UPDATE_USERID",
+                    "title": "Update Userid",
+                    "visible": true
+                },
+                {
+                    "name": "REC_SCALE_EXISTING_ALTER_CODE",
+                    "title": "Scale Existing Alteration",
+                    "visible": true
+                },
+                {
+                    "name": "REC_EVC_INITIAL_VALUE_CODE",
+                    "title": "EVC Initial Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VC_INITIAL_VALUE_CODE",
+                    "title": "VC Initial Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_BR_INITIAL_VALUE_CODE",
+                    "title": "BR Initial Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VAC_INITIAL_VALUE_CODE",
+                    "title": "VAC Initial Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VR_INITIAL_VALUE_CODE",
+                    "title": "VR Initial Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VSC_INITIAL_VALUE_CODE",
+                    "title": "VSC Initial Value",
+                    "visible": true
+                },
+                {
+                    "name": "REC_BR_ASPECT_CODE",
+                    "title": "BR Aspect",
+                    "visible": true
+                },
+                {
+                    "name": "REC_BR_SLOPE_CODE",
+                    "title": "BR Slope",
+                    "visible": true
+                },
+                {
+                    "name": "DATA_CAPTURE_STANDARD",
+                    "title": "Data Capture Standard",
+                    "visible": true
+                },
+                {
+                    "name": "REC_VIEWER_TYPE_CODE",
+                    "title": "Viewer Type",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE_CODE",
+                    "visible": false
+                },
+                {
+                    "name": "REC_HISTORIC_VSR_CODE",
+                    "title": "Historic VSR",
+                    "visible": true
+                },
+                {
+                    "name": "SDGW_SRC_FID",
+                    "title": "SDGW_SRC_FID",
+                    "visible": false
+                },
+                {
+                    "name": "SDGW_REPL_TIME",
+                    "title": "SDGW_REPL_TIME",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sq M",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "Feature Length M",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "3994",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":3994,\"minScale\":300001,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_FOREST_VEGETATION.REC_VISUAL_LANDSCAPE_INVENTORY\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"REC_EVQO_CODE\",\"field2\":null,\"field3\":null,\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[38,115,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[110,110,110,255],\"width\":0.4}},\"value\":\"P\",\"label\":\"Preservation (P)\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[115,193,67,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[110,110,110,255],\"width\":0.4}},\"value\":\"R\",\"label\":\"Retention (R)\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[196,226,37,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[110,110,110,255],\"width\":0.4}},\"value\":\"PR\",\"label\":\"Partial Retention (PR)\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[234,243,25,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[110,110,110,255],\"width\":0.4}},\"value\":\"M\",\"label\":\"Modification (M)\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,200,89,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[110,110,110,255],\"width\":0.4}},\"value\":\"MM\",\"label\":\"Maximum Modification (MM)\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[204,204,204,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,255],\"width\":0.4}},\"value\":\"SCO\",\"label\":\"Scenic Class Objectives (SCO)\",\"description\":\"\"}],\"fieldDelimiter\":\",\"},\"transparency\":0,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[REC_EVQO_CODE]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"bottom\",\"horizontalAlignment\":\"center\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":false,\"haloColor\":[255,255,255,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8.25,\"style\":\"normal\",\"weight\":\"normal\",\"decoration\":\"none\"}},\"minScale\":100000,\"maxScale\":0}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/4e941067-20ec-4b5d-bca3-8831c9b2e4db"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-admin-boundaries-fadm-tsa--453-454",
+            "title": "FADM - Timber Supply Area (TSA) ( 453_454 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": false,
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_ADMIN_BOUNDARIES.FADM_TSA",
+            "styleName": "453_454"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-legal-admin-boundaries-fnt-treaty-area-sp--3453",
+            "title": "First Nations Treaty Areas ( 3453 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": false,
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_LEGAL_ADMIN_BOUNDARIES.FNT_TREATY_AREA_SP",
+            "styleName": "3453"
+        },
+        {
+            "type": "vector",
+            "id": "wildfire",
+            "title": "Wildfire",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "fire-number",
+                    "name": "FIRE_NUMBER",
+                    "title": "FIRE_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "version-number",
+                    "name": "VERSION_NUMBER",
+                    "title": "VERSION_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "fire-year",
+                    "name": "FIRE_YEAR",
+                    "title": "FIRE_YEAR",
+                    "visible": true
+                },
+                {
+                    "id": "fire-size-hectares",
+                    "name": "FIRE_SIZE_HECTARES",
+                    "title": "FIRE_SIZE_HECTARES",
+                    "visible": true
+                },
+                {
+                    "id": "source",
+                    "name": "SOURCE",
+                    "title": "SOURCE",
+                    "visible": true
+                },
+                {
+                    "id": "track-date",
+                    "name": "TRACK_DATE",
+                    "title": "TRACK_DATE",
+                    "visible": true
+                },
+                {
+                    "id": "load-date",
+                    "name": "LOAD_DATE",
+                    "title": "LOAD_DATE",
+                    "visible": true
+                },
+                {
+                    "id": "fire-status",
+                    "name": "FIRE_STATUS",
+                    "title": "FIRE_STATUS",
+                    "visible": true
+                },
+                {
+                    "id": "fire-url",
+                    "name": "FIRE_URL",
+                    "title": "FIRE_URL",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE_CODE",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "https://openmaps.gov.bc.ca/geo/pub/WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_POLYS_SP/ows?service=wfs&version=1.1.0&request=getfeature&typename=pub:WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_POLYS_SP&CQL_FILTER=FIRE_STATUS=%27Fire%20of%20Note%27&FIRE_YEAR=2025&outputFormat=json&srsName=EPSG:4326",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#3388ff",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": false,
+                "fillColor": "#3388ff",
+                "fillOpacity": 0.2
+            }
+        }
+    ],
+    "tools": [
+        {
+            "type": "toolbar",
+            "enabled": false
+        },
+        {
+            "type": "pan",
+            "enabled": false
+        },
+        {
+            "type": "coordinate",
+            "enabled": true
+        },
+        {
+            "type": "markup",
+            "enabled": false
+        },
+        {
+            "type": "minimap",
+            "enabled": false
+        },
+        {
+            "showHeader": false,
+            "type": "location",
+            "enabled": false
+        },
+        {
+            "type": "legend",
+            "enabled": true
+        },
+        {
+            "type": "shortcut-menu",
+            "enabled": false
+        },
+        {
+            "mouseWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "control": true,
+            "type": "zoom",
+            "enabled": true
+        },
+        {
+            "order": "1",
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "layers",
+            "title": "Layers",
+            "command": {
+                "allVisibility": true,
+                "filter": true,
+                "legend": true
+            },
+            "glyph": {
+                "visible": "visibility",
+                "hidden": "visibility_off"
+            },
+            "type": "layers",
+            "enabled": true,
+            "showTitle": true,
+            "display": [
+                {
+                    "id": 667,
+                    "alwaysShowLegend": true
+                },
+                {
+                    "id": 2214,
+                    "alwaysShowLegend": true
+                },
+                {
+                    "id": 3994,
+                    "alwaysShowLegend": true
+                },
+                {
+                    "id": "pub-whse-admin-boundaries-fadm-tsa--453-454",
+                    "alwaysShowLegend": true
+                },
+                {
+                    "id": "pub-whse-legal-admin-boundaries-fnt-treaty-area-sp--3453",
+                    "alwaysShowLegend": true
+                },
+                {
+                    "id": "wildfire",
+                    "title": "Wildfire Port Alberni",
+                    "alwaysShowLegend": true
+                }
+            ]
+        },
+        {
+            "order": 5,
+            "position": "list-menu",
+            "icon": "info_outline",
+            "title": "Identify Features",
+            "command": {
+                "select": true,
+                "radius": false,
+                "radiusUnit": false,
+                "nearBy": true
+            },
+            "radius": 5,
+            "radiusUnit": "px",
+            "type": "identify",
+            "enabled": true
+        },
+        {
+            "order": 1,
+            "icon": "menu",
+            "position": "toolbar",
+            "type": "list-menu",
+            "enabled": true,
+            "title": "List",
+            "showTitle": true
+        },
+        {
+            "order": 3,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "map",
+            "title": "Base Maps",
+            "mapStyle": {
+                "width": "110px",
+                "height": "110px"
+            },
+            "type": "baseMaps",
+            "enabled": true
+        }
+    ],
+    "version": "1.2.4",
+    "createdBy": "Graham MacGregor",
+    "createdDate": "2025-08-12T20:58:36.947Z"
+}
