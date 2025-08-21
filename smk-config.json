@@ -1,0 +1,438 @@
+{
+    "name": "Trial SMK application",
+    "viewer": {
+        "type": "leaflet",
+        "location": {
+            "center": [
+                -124.74975585937501,
+                51.883272964437474
+            ],
+            "extent": [
+                -132.09960937500003,
+                47.100044694025215,
+                -117.39990234375001,
+                56.206703980680814
+            ],
+            "zoom": 6
+        },
+        "esriApiKey": "",
+        "baseMap": "BCGovHillshade"
+    },
+    "layers": [
+        {
+            "type": "esri-dynamic",
+            "id": 668,
+            "title": "Mapsheet Grid - 250K",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 25000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "FCODE",
+                    "title": "FCODE",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_TILE",
+                    "title": "MAP_TILE",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_TILE_DISPLAY_NAME",
+                    "title": "MAP_TILE_DISPLAY_NAME",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "mpcmId": "668",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":668,\"minScale\":25000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_BASEMAPPING.NTS_250K_GRID\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,255],\"width\":1}},\"label\":\"Mapsheet Grid - 250K\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[MAP_TILE]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":false,\"haloColor\":[255,255,255,253],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":11,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":10000000,\"maxScale\":0}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/c50803db-7645-4da8-bce5-1bc5b501a7b3"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 4760,
+            "title": "ALR Inclusion - Outlined",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 50000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "ALR_APPLICATION_ID",
+                    "title": "ALR Application ID",
+                    "visible": true
+                },
+                {
+                    "name": "RECEIVED_DATE",
+                    "title": "Received Date",
+                    "visible": true
+                },
+                {
+                    "name": "PANEL_REGION",
+                    "title": "Panel Region",
+                    "visible": true
+                },
+                {
+                    "name": "REGIONAL_DISTRICT",
+                    "title": "Regional District",
+                    "visible": true
+                },
+                {
+                    "name": "LOCAL_GOVERNMENT",
+                    "title": "Local Government",
+                    "visible": true
+                },
+                {
+                    "name": "APPLICANT_NAME",
+                    "title": "Applicant Name",
+                    "visible": true
+                },
+                {
+                    "name": "APPLICATION_CLASS_CODE",
+                    "title": "Application Class Code",
+                    "visible": true
+                },
+                {
+                    "name": "PROPOSAL_COMPONENT_TYPE",
+                    "title": "Proposal Component Type",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Area Square Meters",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "Perimeter Meters",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "AREA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "LENGTH",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "4760",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":4760,\"minScale\":50000,\"maxScale\":0,\"definitionExpression\":\"PROPOSAL_COMPONENT_TYPE LIKE '%Inclusion%'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_LEGAL_ADMIN_BOUNDARIES.OATS_ALR_APPLICATIONS_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[230,230,0,255],\"width\":1.5}},\"label\":\"ALR Inclusion\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[ALR_APPLICATION_ID]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[230,230,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"bottom\",\"horizontalAlignment\":\"center\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,255,255,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"normal\",\"decoration\":\"none\"}},\"minScale\":50000,\"maxScale\":0}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/48165eb9-cd44-4c3a-a178-ab5c0b9d9ebc"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-land-and-natural-resource-prot-current-fire-polys-sp--1751-1752",
+            "title": "BC Wildfire Fire Perimeters - Current ( 1751_1752 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": false,
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_POLYS_SP",
+            "styleName": "1751_1752"
+        },
+        {
+            "type": "vector",
+            "id": "fires",
+            "title": "fires",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "fire-number",
+                    "name": "FIRE_NUMBER",
+                    "title": "FIRE_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "version-number",
+                    "name": "VERSION_NUMBER",
+                    "title": "VERSION_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "fire-year",
+                    "name": "FIRE_YEAR",
+                    "title": "FIRE_YEAR",
+                    "visible": true
+                },
+                {
+                    "id": "fire-size-hectares",
+                    "name": "FIRE_SIZE_HECTARES",
+                    "title": "FIRE_SIZE_HECTARES",
+                    "visible": true
+                },
+                {
+                    "id": "source",
+                    "name": "SOURCE",
+                    "title": "SOURCE",
+                    "visible": true
+                },
+                {
+                    "id": "track-date",
+                    "name": "TRACK_DATE",
+                    "title": "TRACK_DATE",
+                    "visible": true
+                },
+                {
+                    "id": "load-date",
+                    "name": "LOAD_DATE",
+                    "title": "LOAD_DATE",
+                    "visible": true
+                },
+                {
+                    "id": "fire-status",
+                    "name": "FIRE_STATUS",
+                    "title": "FIRE_STATUS",
+                    "visible": true
+                },
+                {
+                    "id": "fire-url",
+                    "name": "FIRE_URL",
+                    "title": "FIRE_URL",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE_CODE",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "https://openmaps.gov.bc.ca/geo/pub/WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_POLYS_SP/ows?service=wfs&version=1.1.0&request=getfeature&typename=pub:WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_POLYS_SP&CQL_FILTER=FIRE_YEAR=2025&outputFormat=json&srsName=EPSG:4326",
+            "legend": {
+                "line": true
+            },
+            "style": {
+                "strokeColor": "#3388ff",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": false,
+                "fillColor": "#3388ff",
+                "fillOpacity": 0.2
+            }
+        }
+    ],
+    "tools": [
+        {
+            "type": "toolbar",
+            "enabled": true
+        },
+        {
+            "type": "list-menu",
+            "enabled": true,
+            "title": "Testing SMK"
+        },
+        {
+            "type": "pan",
+            "enabled": false
+        },
+        {
+            "type": "zoom",
+            "enabled": true
+        },
+        {
+            "type": "about",
+            "enabled": true,
+            "title": "About Testing SMK",
+            "position": "list-menu",
+            "content": "<p>Welcome to SMK!</p><p>Looking at SMK and assessing how it works</p>"
+        },
+        {
+            "order": 3,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "layers",
+            "title": "Layers",
+            "command": {
+                "allVisibility": true,
+                "filter": true,
+                "legend": true
+            },
+            "glyph": {
+                "visible": "visibility",
+                "hidden": "visibility_off"
+            },
+            "type": "layers",
+            "enabled": false
+        },
+        {
+            "type": "baseMaps",
+            "enabled": false
+        },
+        {
+            "type": "identify",
+            "enabled": true,
+            "showPanel": true,
+            "showWidget": true,
+            "style": {
+                "strokeWidth": 1,
+                "strokeStyle": "1, 1",
+                "strokeColor": "#000000",
+                "strokeOpacity": 0.8,
+                "fillColor": "#000000",
+                "fillOpacity": 0.5,
+                "markerSize": [
+                    20,
+                    20
+                ],
+                "markerOffset": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "search",
+            "enabled": true
+        },
+        {
+            "type": "coordinate",
+            "enabled": false
+        },
+        {
+            "type": "markup",
+            "enabled": true
+        },
+        {
+            "order": 2,
+            "showFactor": true,
+            "showBar": true,
+            "showZoom": false,
+            "type": "scale",
+            "enabled": false
+        },
+        {
+            "type": "minimap",
+            "enabled": true
+        },
+        {
+            "type": "directions",
+            "enabled": true
+        },
+        {
+            "type": "location",
+            "enabled": true
+        },
+        {
+            "type": "select",
+            "enabled": true
+        },
+        {
+            "type": "geomark",
+            "geomarkService": {
+                "url": "https://apps.gov.bc.ca/pub/geomark"
+            },
+            "position": "list-menu",
+            "enabled": true
+        }
+    ],
+    "version": "1.2.4",
+    "createdBy": "Graham MacGregor",
+    "createdDate": "2025-08-21T22:09:39.688Z"
+}

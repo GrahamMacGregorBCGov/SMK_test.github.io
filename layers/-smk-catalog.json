@@ -1,0 +1,95 @@
+{
+    "layers": [
+        {
+            "title": "fires",
+            "dataUrl": "https://openmaps.gov.bc.ca/geo/pub/WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_POLYS_SP/ows?service=wfs&version=1.1.0&request=getfeature&typename=pub:WHSE_LAND_AND_NATURAL_RESOURCE.PROT_CURRENT_FIRE_POLYS_SP&CQL_FILTER=FIRE_YEAR=2025&outputFormat=json&srsName=EPSG:4326",
+            "id": "fires",
+            "attributes": [
+                {
+                    "id": "fire-number",
+                    "name": "FIRE_NUMBER",
+                    "title": "FIRE_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "version-number",
+                    "name": "VERSION_NUMBER",
+                    "title": "VERSION_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "fire-year",
+                    "name": "FIRE_YEAR",
+                    "title": "FIRE_YEAR",
+                    "visible": true
+                },
+                {
+                    "id": "fire-size-hectares",
+                    "name": "FIRE_SIZE_HECTARES",
+                    "title": "FIRE_SIZE_HECTARES",
+                    "visible": true
+                },
+                {
+                    "id": "source",
+                    "name": "SOURCE",
+                    "title": "SOURCE",
+                    "visible": true
+                },
+                {
+                    "id": "track-date",
+                    "name": "TRACK_DATE",
+                    "title": "TRACK_DATE",
+                    "visible": true
+                },
+                {
+                    "id": "load-date",
+                    "name": "LOAD_DATE",
+                    "title": "LOAD_DATE",
+                    "visible": true
+                },
+                {
+                    "id": "fire-status",
+                    "name": "FIRE_STATUS",
+                    "title": "FIRE_STATUS",
+                    "visible": true
+                },
+                {
+                    "id": "fire-url",
+                    "name": "FIRE_URL",
+                    "title": "FIRE_URL",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE_CODE",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": true
+                }
+            ]
+        }
+    ]
+}
