@@ -722,11 +722,11 @@ if ( skip ) return;
     );
     include.tag( "theme-base",
         { loader: "group", tags: [
-            { loader: "style", url: "theme/_base/command.css" },
-            { loader: "style", url: "theme/_base/elastic.css" },
-            { loader: "style", url: "theme/_base/map-frame.css" },
-            { loader: "style", url: "theme/_base/resets.css" },
-            { loader: "style", url: "theme/_base/variables.css" },
+            { loader: "style", url: "theme/base/command.css" },
+            { loader: "style", url: "theme/base/elastic.css" },
+            { loader: "style", url: "theme/base/map-frame.css" },
+            { loader: "style", url: "theme/base/resets.css" },
+            { loader: "style", url: "theme/base/variables.css" },
             "material-icons"
         ] }
     );
